@@ -1,6 +1,7 @@
 <h3>
 
 ```c
+// SPDX-License-Identifier: WTFPL
 /* Here begins the sinful life of a terribly non-conforming evil programmer */
 #if !defined(__has_c_attribute) || !defined(__GNUC__)
 #   error "GCC and C23 are required to empower this existence."
