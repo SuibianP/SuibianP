@@ -1,16 +1,27 @@
-### Hi there 👋
+<h3>
 
-<!--
-**SuibianP/SuibianP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```c
+/* Here begins the sinful life of a terribly non-conforming evil programmer */
+#if !defined(__has_c_attribute) || !defined(__GNUC__)
+#   error "GCC and C23 are required to empower this existence."
+#endif
+#include <stdlib.h>
+#include <stdbool.h>
+#include <time.h>
+#pragma GCC optimize ("O0")
+[[gnu::warning("Sure?")]] __attribute__((used, retain)) _Noreturn void life(void)  {
+    // Why not invoke some UBs for the thrill of their life!
+    srand(time(NULL));
+    unsigned short int __age;
+    while(true) {
+        __age = ++__age + __age++;
+        if (*(_Bool *)(rand())) {
+            abort(); // OH NO
+        }
+    }
+}
 
-Here are some ideas to get you started:
+life(‸
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</h3>
